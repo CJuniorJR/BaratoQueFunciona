@@ -1,7 +1,7 @@
-import Hero from "@/src/components/Hero"
-import CategoryGrid from "@/src/components/CategoryGrid"
-import ArticleList from "@/src/components/ArticleList"
-import ProductSidebar from "@/src/components/ProductSidebar"
+import Hero from "@/components/Hero"
+import CategoryGrid from "@/components/CategoryGrid"
+import ArticleList from "@/components/ArticleList"
+import ProductSidebar from "@/components/ProductSideBar"
 
 export default function Home() {
   return (

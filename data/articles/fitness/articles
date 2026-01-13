@@ -1,0 +1,23 @@
+export const articles = [
+  {
+    title: "Fogão por indução barato é bom? Testamos e contamos",
+    slug: "fogao-inducao-barato",
+    excerpt:
+      "Vale investir em um fogão por indução barato? Veja nosso teste e opinião real.",
+    image: "/images/fogao.jpg",
+  },
+  {
+    title: "5 ferramentas que todo homem precisa ter em casa",
+    slug: "ferramentas-basicas",
+    excerpt:
+      "Conheça cinco ferramentas baratas que não podem faltar na sua casa.",
+    image: "/images/ferramentas.jpg",
+  },
+  {
+    title: "Escapamento furado: como resolver sem gastar muito",
+    slug: "escapamento-furado",
+    excerpt:
+      "Como consertar escapamento furado de forma econômica e rápida.",
+    image: "/images/escapamento.jpg",
+  },
+]

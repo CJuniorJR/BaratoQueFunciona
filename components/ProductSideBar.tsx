@@ -1,4 +1,4 @@
-import { products } from "@/src/data/products/fitness/products"
+import { products } from "@/data/products/fitness/products"
 
 export default function ProductSidebar() {
   return (

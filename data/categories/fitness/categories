@@ -1,0 +1,20 @@
+export const categories = [
+  {
+    title: "Peças baratas para carros antigos",
+    slug: "carros",
+    image: "/images/carros.jpg",
+    link: "#",
+  },
+  {
+    title: "Melhor creatina barata: vale a pena?",
+    slug: "fitness",
+    image: "/images/creatina.jpg",
+    link: "#",
+  },
+  {
+    title: "Organizadores úteis para casa",
+    slug: "casa",
+    image: "/images/casa.jpg",
+    link: "#",
+  },
+]
