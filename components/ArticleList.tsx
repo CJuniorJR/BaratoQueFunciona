@@ -7,27 +7,26 @@ export default function ArticleList() {
         Últimos Artigos
       </h2>
 
-      <div className="space-y-6">
+      <div className="space-y-6 text-green-700">
         {articles.map((article) => (
-          <article
-            key={article.slug}
-            className="bg-white rounded-xl p-4 flex gap-4"
-          >
-            <img
-              // src={article.image}
-              alt={article.title}
-              className="w-32 h-24 object-cover rounded-lg"
-            />
+          <a href={`/fitness/${article.slug}`}>
+            <article className="bg-white rounded-xl p-4 flex gap-4 hover:shadow-md transition">
+              <img
+                src={article.image}
+                alt={article.title}
+                className="w-full h-56 object-cover object-center rounded-t-xl"
+              />
 
-            <div>
-              <h3 className="font-semibold text-lg">
-                {article.title}
-              </h3>
-              <p className="text-gray-600 text-sm mt-1">
-                {article.excerpt}
-              </p>
-            </div>
-          </article>
+              <div>
+                <h3 className="font-semibold text-lg">
+                  {article.title}
+                </h3>
+                <p className="text-gray-600 text-sm mt-1">
+                  {article.excerpt}
+                </p>
+              </div>
+            </article>
+          </a>
         ))}
       </div>
     </section>

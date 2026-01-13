@@ -1,20 +1,20 @@
 export const categories = [
   {
-    title: "Peças baratas para carros antigos",
+    title: "Quais os benefícios da creatina?",
     slug: "carros",
-    image: "/images/carros.jpg",
+    image: "/images/ben_creatina.png",
     link: "#",
   },
   {
-    title: "Melhor creatina barata: vale a pena?",
+    title: "Quais os benefícios do whey protein?",
     slug: "fitness",
-    image: "/images/creatina.jpg",
+    image: "/images/ben_whey.png",
     link: "#",
   },
   {
-    title: "Organizadores úteis para casa",
+    title: "Quais os benefícios de um bom treino?",
     slug: "casa",
-    image: "/images/casa.jpg",
+    image: "/images/ben_treinos.png",
     link: "#",
   },
 ]

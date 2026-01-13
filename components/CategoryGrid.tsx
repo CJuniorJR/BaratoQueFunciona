@@ -3,7 +3,7 @@ import { categories } from "@/data/categories/fitness/categories"
 export default function CategoryGrid() {
   return (
     <section className="mt-8">
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-black">
         {categories.map((cat) => (
           <a
             key={cat.slug}
@@ -13,7 +13,7 @@ export default function CategoryGrid() {
             <img
               src={cat.image}
               alt={cat.title}
-              className="h-40 w-full object-cover"
+              className="w-full h-56 object-cover object-center rounded-t-xl"
             />
 
             <div className="p-4">

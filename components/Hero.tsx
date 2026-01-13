@@ -1,16 +1,31 @@
 export default function Hero() {
   return (
-    <section className="bg-white rounded-xl p-8 flex flex-col md:flex-row items-center gap-6">
-      <div>
-        <h2 className="text-3xl font-bold mb-3">
-          Produtos baratos que realmente valem a pena
-        </h2>
-        <p className="text-gray-600 mb-4">
-          Testes e dicas práticas para gastar menos e comprar certo.
-        </p>
-        <button className="bg-green-700 text-white px-5 py-2 rounded-md">
-          Saiba mais
-        </button>
+    <section className="bg-gradient-to-r from-gray-100 to-gray-200 rounded-xl p-10 mb-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center text-black">
+        
+        {/* Texto */}
+        <div>
+          <h1 className="text-4xl font-extrabold leading-tight">
+            Produtos Baratos Que <br /> Realmente Valem a Pena
+          </h1>
+
+          <p className="text-gray-600 mb-6">
+            Testes e dicas práticas para gastar menos e comprar certo.
+          </p>
+
+          {/* <button className="bg-green-700 hover:bg-green-800 transition text-white px-6 py-3 rounded-md font-medium">
+            Saiba mais
+          </button> */}
+        </div>
+
+        {/* Imagem */}
+        <div className="hidden md:flex justify-end">
+          <img
+            src="/images/hero.png"
+            alt="Produtos baratos"
+            className="w-full h-56 object-cover object-center rounded-t-xl"
+          />
+        </div>
       </div>
     </section>
   )

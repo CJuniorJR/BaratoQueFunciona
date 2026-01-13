@@ -1,10 +1,44 @@
 export const articles = [
   {
-    title: "Fogão por indução barato é bom? Testamos e contamos",
-    slug: "fogao-inducao-barato",
+    title: "O que é a creatina? Benefícios reais, efeitos no corpo e por que ela funciona",
+    slug: "creatina-beneficios",
     excerpt:
-      "Vale investir em um fogão por indução barato? Veja nosso teste e opinião real.",
-    image: "/images/fogao.jpg",
+      "Entenda o que é a creatina, como ela age no corpo, seus benefícios reais e por que é um dos suplementos mais estudados do mundo.",
+    image: "/images/ben_creatina.png",
+    category: "fitness",
+    content: `
+Se você treina musculação ou pratica qualquer atividade física intensa, provavelmente já ouviu falar da creatina.
+
+Ela é um dos suplementos mais populares do mundo fitness, mas também um dos mais mal compreendidos.
+
+## O que é a creatina?
+
+A creatina é uma substância natural do nosso organismo, produzida principalmente pelo fígado, rins e pâncreas...
+
+## Para que serve a creatina no corpo?
+
+Durante exercícios de alta intensidade, o corpo utiliza ATP como fonte de energia...
+
+## Principais benefícios da creatina
+
+### Mais força e desempenho
+Esse é o benefício mais comprovado cientificamente...
+
+### Aumento de massa muscular
+Ao permitir treinos mais intensos, a creatina cria um ambiente favorável para a hipertrofia...
+
+### Melhor recuperação muscular
+Ela auxilia na recuperação entre sessões de treino...
+
+## Creatina engorda?
+Não. O ganho inicial de peso está relacionado à retenção hídrica...
+
+## Como tomar creatina corretamente
+A recomendação mais comum é de 3 a 5g por dia...
+
+## Vale a pena usar creatina?
+Se você treina e busca evolução consistente, sim.
+`
   },
   {
     title: "5 ferramentas que todo homem precisa ter em casa",

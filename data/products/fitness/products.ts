@@ -1,8 +1,8 @@
 export const products = [
   {
-    name: "Creatina Monohidratada 300g",
+    name: "Creatina Monohidratada 500g Soldiers Nutrition ",
     price: "R$85",
-    link: "#",
+    link: "https://mercadolivre.com/sec/2bsAXPo",
   },
   {
     name: "Suporte para Notebook",

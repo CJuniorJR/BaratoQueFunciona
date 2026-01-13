@@ -6,11 +6,11 @@ export default function Header() {
           BARATO<span className="text-gray-700">QUEFUNCIONA</span>
         </h1>
 
-        <nav className="hidden md:flex gap-6 text-sm font-medium">
+        <nav className="hidden md:flex gap-6 text-sm font-medium text-black">
           <a href="#">Fitness</a>
-          <a href="#">Casa</a>
+          {/* <a href="#">Casa</a>
           <a href="#">Carros</a>
-          <a href="#">Reviews</a>
+          <a href="#">Reviews</a> */}
         </nav>
       </div>
     </header>
