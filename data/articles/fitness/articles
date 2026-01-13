@@ -1,10 +1,12 @@
 export const articles = [
   {
     title: "O que é a creatina? Benefícios reais, efeitos no corpo e por que ela funciona",
+    subtitle: "Entenda como a creatina age no corpo e por que é um dos suplementos mais estudados do mundo",
     slug: "creatina-beneficios",
     excerpt:
       "Entenda o que é a creatina, como ela age no corpo, seus benefícios reais e por que é um dos suplementos mais estudados do mundo.",
     image: "/images/ben_creatina.png",
+    cover: "/images/cover_creatina.png",
     category: "fitness",
     content: `
 Se você treina musculação ou pratica qualquer atividade física intensa, provavelmente já ouviu falar da creatina.

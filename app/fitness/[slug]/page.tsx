@@ -17,22 +17,36 @@ export default async function ArticlePage({ params }: Props) {
 
   return (
     <section>
-    <article className="max-w-3xl mx-auto">
-      <img
-        src={article.image}
-        alt={article.title}
-        className="w-full rounded-xl mb-8"
-      />
+    <article className="max-w-3xl mx-auto px-4">
 
-      <h1 className="text-4xl font-bold mb-4">
-        {article.title}
-      </h1>
+  {/* Categoria */}
+  <span className="text-sm uppercase text-green-600 font-semibold">
+    Fitness
+  </span>
 
-      <p className="text-gray-600 mb-8">
-        {article.excerpt}
-      </p>
+  {/* Título */}
+  <h1 className="text-4xl font-bold mt-2 leading-tight">
+    {article.title}
+  </h1>
 
-      <div className="prose prose-lg max-w-none">
+  {/* Subtítulo */}
+  <p className="text-lg text-gray-600 mt-3">
+    {article.subtitle}
+  </p>
+
+  {/* Imagem */}
+  <div className="my-10 flex justify-center">
+  <img
+    src={article.image}
+    alt={article.title}
+    className="
+      max-w-[200px]
+    "
+  />
+</div>
+
+  {/* Conteúdo */}
+  <div className="prose prose-lg md:prose-xl max-w-none">
             {article.content.split("\n").map((line, i) => {
                 if (line.startsWith("## ")) {
                 return <h2 key={i}>{line.replace("## ", "")}</h2>
@@ -45,6 +59,7 @@ export default async function ArticlePage({ params }: Props) {
                 return <p key={i}>{line}</p>
             })}
         </div>
+      
     </article>
 
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-10">
